@@ -1,0 +1,24 @@
+package com.springbasic.SpringBasic;
+
+public class A {
+	private B b12;
+	A()
+	{
+		System.out.println("hello class A");
+	}
+	public B getb12() {
+		return b12;
+	}
+	public void setB1(B b12) {
+		this.b12=b12;
+	}
+//	public void display()
+//	{
+//		System.out.println("hello"+b1.getId());
+//	}
+//	public void show()
+//	{
+//		display();
+//		b1.g;
+//	}
+}

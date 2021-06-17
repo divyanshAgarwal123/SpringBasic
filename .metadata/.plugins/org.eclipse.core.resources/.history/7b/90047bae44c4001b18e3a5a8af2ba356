@@ -1,0 +1,13 @@
+package com.springbasic.SpringBasic;
+
+public class Text1 {
+	private Addresses a2;
+
+	public Addresses getA2() {
+		return a2;
+	}
+
+	public void setA2(Addresses a2) {
+		this.a2 = a2;
+	}
+}

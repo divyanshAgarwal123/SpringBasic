@@ -1,0 +1,14 @@
+package com.springbasic.SpringBasic;
+
+public class ConstructEmployee {
+	int rollno;
+	String country;
+	int age;
+
+	public ConstructEmployee(int id, String name, int age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
+}

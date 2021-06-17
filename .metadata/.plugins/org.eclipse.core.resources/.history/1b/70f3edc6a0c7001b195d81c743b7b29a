@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1> your user name is ${key.user1}</h1>
+<h1> your user name is ${key.user2}</h1>
+<h1> your user name is ${key.email}</h1>
+<h1> your user name is ${key.pass1}</h1>
+<h1> your password is ${key.pass2}</h1>
+</body>
+</html>

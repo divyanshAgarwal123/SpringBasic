@@ -1,0 +1,9 @@
+package springmvc;
+
+public class Mycontroller {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

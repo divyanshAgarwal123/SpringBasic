@@ -1,0 +1,33 @@
+package com.springbasic.autowires;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class AnnotationCall {
+	@Autowired 
+	private AnotaionExample anotation;
+
+	public AnotaionExample getAnotation() {
+		return anotation;
+	}
+
+	public AnnotationCall() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "AnotationCall [anotation=" + anotation + "]";
+	}
+
+	public AnnotationCall(AnotaionExample anotation) {
+		super();
+		this.anotation = anotation;
+		System.out.println("calling");
+	}
+
+	public void setAnotation(AnotaionExample anotation) {
+		this.anotation = anotation;
+	}
+	
+}

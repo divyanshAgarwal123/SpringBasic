@@ -1,0 +1,5 @@
+package com.springbasic.autowires;
+
+public class B {
+
+}

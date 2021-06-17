@@ -1,0 +1,20 @@
+package com.springbasic.SpringBasic;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App  { 	
+	public static void main(String args[]) 	
+	{ 	
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml"); 	
+		Employee employee = (Employee)context.getBean("e"); 	
+		employee.hello();
+		System.out.println(employee.getId());
+		System.out.println(employee.getName());
+		System.out.println(employee.getDesgination());
+		System.out.println("toasting methos is calling"+employee);
+		
+	}
+	
+}
+
+// i have to make with setter injection and constructor injection-homework

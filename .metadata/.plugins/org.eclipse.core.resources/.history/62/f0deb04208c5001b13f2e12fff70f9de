@@ -1,0 +1,6 @@
+package com.springbasic.autowires;
+
+public class AnotaionExample {
+	private int id;
+	private String name;
+}

@@ -1,0 +1,19 @@
+package com.springbasic.SpringBasic;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AutowireMain {
+	public static void main(String args[]) 	
+	{
+		try
+		{
+			ApplicationContext context = new ClassPathXmlApplicationContext("autowire.xml");
+			A a1 = (A)context.getBean("b5");
+			
+		}
+		catch(e){
+			
+		}
+	}
+}

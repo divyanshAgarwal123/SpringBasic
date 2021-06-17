@@ -1,0 +1,27 @@
+package com.springbasic.SpringBasic;
+
+public class Listexample {
+	List<String>phone;
+	Set<String>address;
+	Map<String>course;
+	public List<String> getPhone() {
+		return phone;
+	}
+	public void setPhone(List<String> phone) {
+		this.phone = phone;
+	}
+	public Set<String> getAddress() {
+		return address;
+	}
+	public void setAddress(Set<String> address) {
+		this.address = address;
+	}
+	public Map<String> getCourse() {
+		return course;
+	}
+	public void setCourse(Map<String> course) {
+		this.course = course;
+	}
+	
+
+}

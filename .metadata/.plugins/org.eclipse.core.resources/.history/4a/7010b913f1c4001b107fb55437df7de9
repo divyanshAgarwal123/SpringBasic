@@ -1,0 +1,33 @@
+package com.springbasic.SpringBasic;
+
+public class A {
+	private B b3;
+	//argument constructor
+	public A(B b3) {
+		super();
+		this.b3 = b3;
+	}
+	//Default Constructor
+	public A() {
+		super();
+	}
+	
+	{
+		System.out.println("hello class A");
+		
+	}
+	//toasting Method
+	@Override
+	public String toString() {
+		return "A [b3=" + b3 + "]";
+	}
+	//Getter Setter
+	public B getb3() {
+		return b3;
+	}
+	public void setB3(B b3) {
+		this.b3=b3;
+	}
+	
+	
+}

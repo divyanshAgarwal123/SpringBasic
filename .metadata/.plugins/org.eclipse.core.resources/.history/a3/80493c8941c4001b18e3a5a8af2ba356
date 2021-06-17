@@ -1,0 +1,31 @@
+package com.springbasic.SpringBasic;
+
+public class A {
+	private B b3;
+	public A(B b3) {
+		super();
+		this.b3 = b3;
+	}
+	{
+		System.out.println("hello class A");
+	}
+	@Override
+	public String toString() {
+		return "A [b3=" + b3 + "]";
+	}
+	public B getb3() {
+		return b3;
+	}
+	public void setB3(B b3) {
+		this.b3=b3;
+	}
+//	public void display()
+//	{
+//		System.out.println("hello"+b1.getId());
+//	}
+//	public void show()
+//	{
+//		display();
+//		b1.g;
+//	}
+}

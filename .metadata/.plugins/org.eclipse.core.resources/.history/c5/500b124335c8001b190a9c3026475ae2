@@ -1,0 +1,26 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  
+ 
+  <style>
+.container {
+ padding: 30px;
+}
+hr.style1{
+	border-top: 3px solid #8c8b8b;
+}
+.grad1 {
+  height: 100%;
+  background-image:linear-gradient(to right,Lightskyblue,Darkslateblue);
+}
+
+</style>
+</head>                                                       
+<body>
+</body>
+</html>

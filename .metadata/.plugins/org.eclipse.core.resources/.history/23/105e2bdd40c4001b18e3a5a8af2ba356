@@ -1,0 +1,21 @@
+package com.springbasic.SpringBasic;
+
+public class B {
+	private int id;
+	B()
+	{
+		System.out.println("the value of id is "+id);
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public B(int id) {
+		super();
+		this.id = id;
+	}
+	
+
+}
